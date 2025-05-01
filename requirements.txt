@@ -1,5 +1,0 @@
-streamlit==1.10.0
-sentence-transformers==2.2.0
-altair==4.2.0
-huggingface_hub==0.13.3  # Adjust version if required
-
