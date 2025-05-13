@@ -50,14 +50,17 @@ A web-based chatbot application designed to help university students get quick a
 
 ## Preview
 
-![university chatbot Screenshot](chatbot1.png)
-![university chatbot Screenshot](chatbot2.png)
-![university chatbot Screenshot](chatbot3.png)
-![university chatbot Screenshot](chatbot4.png)
-![university chatbot Screenshot](chatbot5.png)
-![university chatbot Screenshot](chatbot6.png)
-![university chatbot Screenshot](chatbot7.png)
+Here are some screenshots of the University Chatbot in action:
 
+![university chatbot Screenshot](img/chatbot1.png)
+![university chatbot Screenshot](img/chatbot2.png)
+![university chatbot Screenshot](img/chatbot3.png)
+![university chatbot Screenshot](img/chatbot4.png)
+![university chatbot Screenshot](img/chatbot5.png)
+![university chatbot Screenshot](img/chatbot6.png)
+![university chatbot Screenshot](imag/chatbot7.png)
+
+---
 ---
 
 
