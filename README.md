@@ -49,7 +49,12 @@ A web-based chatbot application designed to help university students get quick a
 ##Preview
 
 ![university chatbot Screenshot](chatbot1.png)
-
+![university chatbot Screenshot](chatbot2.png)
+![university chatbot Screenshot](chatbot3.png)
+![university chatbot Screenshot](chatbot4.png)
+![university chatbot Screenshot](chatbot5.png)
+![university chatbot Screenshot](chatbot6.png)
+![university chatbot Screenshot](chatbot7.png)
 
 
 
