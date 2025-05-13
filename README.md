@@ -46,7 +46,9 @@ A web-based chatbot application designed to help university students get quick a
 ## Credits
  - Developed as a university-level academic project for assisting students with common queries using a smart, interactive chatbot interface.
 
-##Preview
+---
+
+## Preview
 
 ![university chatbot Screenshot](chatbot1.png)
 ![university chatbot Screenshot](chatbot2.png)
@@ -55,6 +57,8 @@ A web-based chatbot application designed to help university students get quick a
 ![university chatbot Screenshot](chatbot5.png)
 ![university chatbot Screenshot](chatbot6.png)
 ![university chatbot Screenshot](chatbot7.png)
+
+---
 
 
 
