@@ -1,0 +1,44 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="chat-container">
+    <h2>University Chatbot</h2>
+    <div id="chat-box" class="chat-box">
+        <!-- Messages will appear here -->
+    </div>
+    <form id="chat-form" method="POST">
+        <input type="text" id="user-input" name="user_input" placeholder="Ask me anything..." required>
+        <button type="submit">Send</button>
+    </form>
+</div>
+
+<script>
+    // Send user input to the Flask route and get the response
+    document.getElementById('chat-form').onsubmit = function(event) {
+        event.preventDefault();
+
+        var userInput = document.getElementById('user-input').value;
+        var chatBox = document.getElementById('chat-box');
+
+        // Display user message
+        chatBox.innerHTML += `<div class="user-message">${userInput}</div>`;
+
+        // Send the input to the server and get the response
+        fetch('/chatbot', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/x-www-form-urlencoded',
+            },
+            body: `user_input=${userInput}`,
+        })
+        .then(response => response.json())
+        .then(data => {
+            // Display bot response
+            chatBox.innerHTML += `<div class="bot-message">${data.response}</div>`;
+            document.getElementById('user-input').value = ''; // Clear input field
+            chatBox.scrollTop = chatBox.scrollHeight; // Scroll to the bottom of the chat
+        });
+    };
+</script>
+
+{% endblock %}

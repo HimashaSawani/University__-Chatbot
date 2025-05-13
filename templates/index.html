@@ -1,0 +1,49 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <div class="home-container">
+        <h1>Welcome to University Chatbot</h1>
+        <p>Your go-to place for college-related queries and more!</p>
+    </div>
+    <!-- Chatbox Widget Button -->
+<div id="chat-widget">
+  <button id="open-chat">&#128172;</button>
+  <div id="chat-popup" class="hidden">
+<div class="chat-header">Chat with me <span id="close-chat">&times;</span></div>
+    <div class="chat-messages" id="chat-messages"></div>
+    <form id="chat-form">
+      <input type="text" id="chat-input" placeholder="Ask something..." required>
+      <button type="submit">Send</button>
+    </form>
+  </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+  $(function () {
+    $('#open-chat').click(function () {
+      $('#chat-popup').toggleClass('hidden');
+    });
+
+    $('#close-chat').click(function () {
+      $('#chat-popup').addClass('hidden');
+    });
+
+    $('#chat-form').on('submit', function (e) {
+      e.preventDefault();
+      const input = $('#chat-input').val();
+      if (!input) return;
+
+      $('#chat-messages').append(`<div class="msg user">${input}</div>`);
+      $('#chat-input').val('');
+
+      $.post("/chatbot", { user_input: input }, function (data) {
+        $('#chat-messages').append(`<div class="msg bot">${data.response}</div>`);
+        $('#chat-messages').scrollTop($('#chat-messages')[0].scrollHeight);
+      });
+    });
+  });
+</script>
+
+
+
+{% endblock %}
