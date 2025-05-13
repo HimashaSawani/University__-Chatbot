@@ -6,10 +6,8 @@ A web-based chatbot application designed to help university students get quick a
 
 - **Login & Registration** system with user authentication.
 - **Home Page** that welcomes users and explains the chatbot's purpose.
-- **Floating Chat Widget** ("cRCe - Chat with me") similar to Facebook Messenger on desktop.
 - Real-time Q&A using a Python backend with NLP logic.
 - Responsive and minimal design using HTML5, CSS3, JavaScript, and jQuery.
-- Easily extendable for integrating advanced models like BERT or GPT.
 
 
 ## How It Works
