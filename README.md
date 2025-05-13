@@ -1,4 +1,4 @@
-# 🎓 University Chatbot - " Chat with me"
+# 🎓 University Chatbot
 
 A web-based chatbot application designed to help university students get quick answers to their college-related queries — from courses and facilities to campus life. Built with a login/register system, dynamic chat interface, and server-side processing using Flask.
 
