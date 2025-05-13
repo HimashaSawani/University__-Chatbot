@@ -2,8 +2,6 @@
 
 A web-based chatbot application designed to help university students get quick answers to their college-related queries — from courses and facilities to campus life. Built with a login/register system, dynamic chat interface, and server-side processing using Flask.
 
----
-
 ## Features
 
 - **Login & Registration** system with user authentication.
@@ -13,10 +11,6 @@ A web-based chatbot application designed to help university students get quick a
 - Responsive and minimal design using HTML5, CSS3, JavaScript, and jQuery.
 - Easily extendable for integrating advanced models like BERT or GPT.
 
----
-
-
----
 
 ## How It Works
 
@@ -26,7 +20,6 @@ A web-based chatbot application designed to help university students get quick a
 4. Questions are sent to the `/chatbot` Flask route, where Python processes them.
 5. Responses are dynamically displayed inside the chatbox.
 
----
 ## Tech Stack
  - Frontend: HTML5, CSS3, JavaScript, jQuery
 
@@ -46,22 +39,22 @@ A web-based chatbot application designed to help university students get quick a
 ## Credits
  - Developed as a university-level academic project for assisting students with common queries using a smart, interactive chatbot interface.
 
----
 
 ## Preview
 
 Here are some screenshots of the University Chatbot in action:
 
 ![university chatbot Screenshot](img/chatbot1.png)
+---
 ![university chatbot Screenshot](img/chatbot2.png)
+---
 ![university chatbot Screenshot](img/chatbot3.png)
-![university chatbot Screenshot](img/chatbot4.png)
+---
 ![university chatbot Screenshot](img/chatbot5.png)
+---
 ![university chatbot Screenshot](img/chatbot6.png)
-![university chatbot Screenshot](imag/chatbot7.png)
-
 ---
----
+![university chatbot Screenshot](img/chatbot7.png)
 
 
 
